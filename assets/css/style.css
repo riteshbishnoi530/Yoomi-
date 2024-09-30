@@ -1,0 +1,58 @@
+/* =====================================font family======================== */
+/* ==============poppins============= */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* =================inter================ */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* =================puls jakarta sans======== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.font-poppins{
+    font-family: "poppins", sans-serif;
+}
+.font-inter{
+    font-family: "inter", sans-serif;
+}
+.font-plus-jakarta{
+    font-family: "puls Jakarta Sans", sans-serif;
+}
+/* ================slider-1================== */
+ .slick-slide-1{
+    width: 460px !important;
+    height: 331px !important;
+}
+.slideBox .slick-list .slick-track {
+    display: flex;
+    gap: 24px;
+  }
+
+  .next:hover path  {
+    stroke: white;
+  }
+  .prev:hover path {
+    stroke: white;
+  }
+  /* ====================slider-2============== */
+  .second-row-slider .slick-track {
+    gap: 60px !important;
+    display: flex !important;
+    min-height: 144px !important;
+    align-items: center !important;
+  }
+  .second-row-slider .slick-track .slick-current {
+    scale: 1.5;
+  }
+  .slider-box .slick-track {
+    display: flex !important;
+    gap: 35px !important;
+  }
+  .slider-box .slick-track .slick-slide {
+    max-width: 460px !important;
+  }
+  @media (max-width:640px) {
+    .second-row-slider .slick-track .slick-current {
+      scale: 1.2;
+    }
+    .second-row-slider .slick-track {
+      gap: 20px !important;
+    }
+    
+  }

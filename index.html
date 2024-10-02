@@ -8,25 +8,25 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="shortcut icon" href="./assets/images/svg/favicon.svg" type="image/x-icon">
     <!-- Primary Meta Tags -->
-<title>Yoomi</title>
-<meta name="title" content="Yoomi" />
-<meta name="description" content="Yoomi" />
+    <title>Yoomi</title>
+    <meta name="title" content="Yoomi" />
+    <meta name="description" content="Yoomi" />
 
-<!-- Open Graph / Facebook -->
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://yoomi-22.web.app/" />
-<meta property="og:title" content="Yoomi" />
-<meta property="og:description" content="Yoomi" />
-<meta property="og:image" content="./meta.webp" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yoomi-22.web.app/" />
+    <meta property="og:title" content="Yoomi" />
+    <meta property="og:description" content="Yoomi" />
+    <meta property="og:image" content="/meta.webp" />
 
-<!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image" />
-<meta property="twitter:url" content="https://yoomi-22.web.app/" />
-<meta property="twitter:title" content="Yoomi" />
-<meta property="twitter:description" content="Yoomi" />
-<meta property="twitter:image" content="./meta.webp" />
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://yoomi-22.web.app/" />
+    <meta property="twitter:title" content="Yoomi" />
+    <meta property="twitter:description" content="Yoomi" />
+    <meta property="twitter:image" content="/meta.webp" />
 
-<!-- Meta Tags Generated with https://metatags.io -->
+    <!-- Meta Tags Generated with https://metatags.io -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
         integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -54,6 +54,9 @@
                         offWhite: '#F8FDFF',
                         customWhite: '#AFCBD521',
                     },
+                    boxShadow:{
+                        '5xl':'rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;'
+                    },
                 }
             }
         }
@@ -63,7 +66,8 @@
 <body class="font-inter max-w-[1920px] mx-auto">
     <section class="bg-offWhite pb-48 relative">
         <img class="absolute max-lg:hidden top-48 left-0" src="./assets/images/svg/sec1-left-icon.svg" alt="left icon">
-        <img class="absolute max-lg:hidden top-56 right-0" src="./assets/images/svg/sec1-right-icon.svg" alt="right icon">
+        <img class="absolute max-lg:hidden top-56 right-0" src="./assets/images/svg/sec1-right-icon.svg"
+            alt="right icon">
         <div class="container relative z-10 px-3">
             <!-- =================navbar============ -->
             <nav class="py-6">
@@ -87,17 +91,17 @@
                             class="max-lg:fixed flex justify-center items-center max-lg:bg-white max-lg:w-full max-lg:h-full max-lg:-top-full max-lg:-right-full transition-all duration-300">
                             <ul class="flex gap-[25px] max-lg:flex-col items-center justify-center">
                                 <li>
-                                    <a class="text-black relative text-lg font-medium" href="/">About Us</a>
+                                    <a class="text-black relative text-lg font-medium hover:text-offGreen transition-all ease-linear duration-300" href="/">About Us</a>
                                 </li>
                                 <li>
-                                    <a class="text-black relative text-lg font-medium" href="/">News</a>
+                                    <a class="text-black relative text-lg font-medium hover:text-offGreen transition-all ease-linear duration-300" href="/">News</a>
                                 </li>
                                 <li>
-                                    <a class="text-black relative text-lg font-medium" href="/">Contact Us</a>
+                                    <a class="text-black relative text-lg font-medium hover:text-offGreen transition-all ease-linear duration-300" href="/">Contact Us</a>
                                 </li>
-                                <li class="">
+                                <li>
                                     <button
-                                        class="py-3 px-4 text-base font-semibold rounded-md  text-white bg-offGreen hover:transform hover:scale-110 transition-all ease-linear duration-300">
+                                        class="py-3 px-4 text-base font-semibold rounded-md text-white bg-offGreen hover:transform hover:scale-[0.9] transition-all ease-linear duration-300">
                                         Get Started
                                     </button>
                                 </li>
@@ -107,24 +111,24 @@
                 </div>
             </nav>
             <!-- ====================hero section============ -->
-            <div class="max-w-[819px] mx-auto mt-[123px] max-lg:mt-20 max-md:mt-11 max-sm:mt-5">
+            <div class="max-w-[819px] mx-auto lg:mt-[123px] md:mt-20 sm:mt-11 mt-5">
                 <h2
                     class="text-[52px] max-md:text-5xl max-sm:text-4xl font-normal !leading-[110%] text-center font-plus-jakarta">
                     <span class="font-semibold">Next
                         Generation</span> Patient Engagement and RTM Solution✨
                 </h2>
             </div>
-            <p class="text-2xl font-normal leading-[110%] opacity-70 text-center mt-2">Industry leading AI
+            <p class="text-2xl font-normal leading-[110%] opacity-70 text-center mt-4">Industry leading AI
                 motion-tracking technology</p>
             <div class="px-3">
-                <div
+                <form
                     class="mt-14 bg-white justify-between flex drop-shadow-[0_4px_15px_rgba(7,103,135,0.15)] max-w-[428.89px] mx-auto p-1 rounded">
-                    <input type="email" placeholder="Enter Your Email"
-                        class=" placeholder:text-[#110163] placeholder:opacity-70 outline-none border-none text-base font-medium opacity-70 w-[70%] max-sm:w-[55%] px-2">
+                    <input type="email" required placeholder="Enter Your Email"
+                        class=" placeholder:text-black placeholder:opacity-70 outline-none border-none text-base font-medium opacity-70 w-[60%] max-sm:w-[55%] px-2">
                     <button
-                        class="sm:py-3 py-2 sm:px-4 px-3 text-base font-semibold rounded-md  text-white bg-offGreen hover:transform hover:scale-110 transition-all ease-linear duration-300">Get
+                        class="sm:py-3 py-2 sm:px-4 px-3 text-base font-semibold rounded-md text-white bg-offGreen hover:transform hover:scale-[0.9] transition-all ease-linear duration-300">Get
                         Started</button>
-                </div>
+                </form>
             </div>
         </div>
         <div
@@ -135,27 +139,30 @@
     </section>
     <section class="transform sm:-translate-y-36 -translate-y-40 relative sm:-mb-[50px] -mb-[100px]">
         <img class="absolute -z-10 top-[52%] left-0" src="./assets/images/svg/sec2-left-icon.svg" alt="sec2-left-icon">
-        <img class="absolute -z-10 top-[75%] right-0" src="./assets/images/svg/sec2-right-icon.svg" alt="sec2-right-icon">
+        <img class="absolute -z-10 top-[75%] right-0" src="./assets/images/svg/sec2-right-icon.svg"
+            alt="sec2-right-icon">
         <!-- ======================Your Workout================ -->
         <div class="container px-3">
             <img class="max-w-[1052px] mx-auto w-full" src="./assets/images/webp/yoga-class.webp" alt="yoga class">
         </div>
         <!-- ========================Features====================== -->
-        <div class="max-w-[724px] mx-auto gap-y-2 md:mt-32 sm:mt-12 mt-6  md:mb-14 sm:mb-12 mb-6">
+        <div class="max-w-[724px] mx-auto gap-y-2 md:mt-32 sm:mt-12 mt-6 md:mb-14 sm:mb-12 mb-6">
             <p class="text-base font-medium text-offGreen text-center">Features</p>
             <h2 class="text-[40px] max-sm:text-3xl font-normal !leading-[110%] text-center font-plus-jakarta">Explore
                 Our<span class="font-semibold">Amazing Features</span></h2>
-            <p class="text-base font-normal opacity-70 leading-[150%] text-center">Yoomi is more than just a regular
+            <p class="text-base font-normal opacity-70 !leading-[150%] text-center mt-4">Yoomi is more than just a
+                regular
                 remote monitoring solution. Our product supports patients and providers through every step of the
                 rehabilitation process</p>
         </div>
         <div class="container px-3">
             <!-- ===================Library================= -->
-            <div class="w-full bg-white flex flex-wrap shadow-[0px_26px_27px_0px_#0000000A] sm:py-[61px] py-[25px] md:pl-7 rounded-[32px]">
-                <div class="lg:w-1/2 w-full">
+            <div
+                class="w-full bg-white gap-y-5 flex flex-wrap shadow-[0px_26px_27px_0px_#0000000A] sm:py-[61px] py-[25px] md:pl-7 rounded-[32px]">
+                <div class="lg:w-1/2 px-3 w-full justify-center items-center flex">
                     <div class="max-w-[468px] gap-y-2">
                         <p class="text-base font-medium text-offGreen mb-2">LIBRARY</p>
-                        <p class="text-[32px] font-normal leading-[110%]">Extensive Exercise <span
+                        <p class="text-[32px] font-normal leading-[110%] mb-5">Extensive Exercise <span
                                 class="font-semibold">Library</span></p>
                         <div class="flex gap-x-4">
                             <img class="cursor-pointer" src="./assets/images/svg/light-green-tick.svg"
@@ -179,13 +186,13 @@
                             </p>
                         </div>
                         <button
-                            class=" mt-9 py-3 px-4 text-base font-semibold rounded-md  text-white bg-offGreen hover:transform hover:scale-110 transition-all ease-linear duration-300">View
+                            class=" mt-9 py-4 px-[18.5px] text-base font-semibold rounded-md text-white bg-offGreen hover:transform hover:scale-[0.9] transition-all ease-linear duration-300">View
                             the Library</button>
                     </div>
                 </div>
-                <div class="relative lg:w-1/2 w-full max-lg:max-w-[570px] max-lg:mx-auto">
+                <div class="relative px-3 lg:w-1/2 w-full max-lg:max-w-[570px] max-lg:mx-auto">
                     <div
-                        class="absolute max-sm:hidden left-14 lg:max-w-[489px] max-w-[516px] w-full h-[262px] bg-lightGreen rounded-tl-[4px]">
+                        class="absolute max-sm:hidden left-14 max-lg:max-w-[503px] max-w-[477px] max-[1100px]:max-w-[403px] w-full h-[262px] bg-lightGreen rounded-tl-[4px]">
                     </div>
                     <div class="slideBox mt-11">
                         <div class="slick sm:slick-slide-1 max-sm:max-w-[340px] max-w-[460px]">
@@ -197,7 +204,7 @@
                         </div>
                     </div>
 
-                    <div class="flex slick-arrow-buttons gap-6 md:pt-5 pt-2 relative z-30">
+                    <div class="flex slick-arrow-buttons pl-2 gap-3 md:pt-5 pt-2 relative z-30">
 
                         <button
                             class="prev cursor-pointer transition-all ease-linear duration-300 items-center rounded-full py-3 px-[14px] border border-black hover:bg-offGreen hover:border-offGreen flex justify-center"><svg
@@ -217,35 +224,39 @@
                 </div>
             </div>
             <!-- =================TRACKING================== -->
-            <div class="w-full flex bg-white flex-wrap max-lg:flex-col-reverse sm:mt-24 mt-8 shadow-[0px_26px_27px_0px_#0000000A] pl-8 py-14 rounded-[32px]">
+            <div
+                class="w-full flex bg-white flex-wrap max-lg:flex-col-reverse sm:mt-24 mt-8 shadow-[0px_26px_27px_0px_#0000000A] sm:pl-8 px-3 py-14 rounded-[32px]">
                 <div class="lg:w-1/2 w-full sm:pr-6 sm:py-9 justify-center flex items-center">
                     <div class="max-w-[510px] max-lg:mx-auto">
                         <div class=" relative">
-                            <img class="w-full" src="./assets/images/webp/tracking-feedback.webp"
+                            <img class="pointer-events-none w-full" src="./assets/images/webp/tracking-feedback.webp"
                                 alt="tracking-feedback">
-                            <img class="absolute -top-6 -left-7 max-w-[217px] max-sm:hidden w-full"
+                            <img class="absolute pointer-events-none -top-6 -left-7 max-w-[217px] max-sm:hidden w-full"
                                 src="./assets/images/webp/tracking-feedback-small.webp" alt="tracking-feedback-small">
-                            <img class="absolute -top-4 -right-3 max-w-[121px] max-sm:hidden w-full"
+                            <img class="absolute pointer-events-none -top-4 -right-3 max-w-[121px] max-sm:hidden w-full"
                                 src="./assets/images/webp/graph.webp" alt="graph">
                         </div>
-                        <div class="flex justify-between px-8">
-                            <div class="flex gap-x-3 font-medium">
-                                <p class="text-xs">Prone w/ Scapular Retraction</p>
-                                <div class="text-xs flex flex-wrap gap-x-2 items-center">
-                                    <p>Seats</p>
-                                    <p><span class="text-base text-offGreen">2</span>/3</p>
+                        <div class="px-4">
+                            <div
+                                class="flex justify-between px-4 pb-3 rounded shado-[0px_-0.92px_17.51px_0px_#0000001A;] bg-white shadow-lg">
+                                <div class="flex gap-x-3 font-medium">
+                                    <p class="text-xs">Prone w/ Scapular Retraction</p>
+                                    <div class="text-xs flex flex-wrap gap-x-2 items-center">
+                                        <p>Seats</p>
+                                        <p><span class="text-base text-offGreen">2</span>/3</p>
+                                    </div>
+                                    <div class=" text-xs flex flex-wrap gap-x-2 items-center">
+                                        <p>Reps</p>
+                                        <p><span class="text-base text-offGreen">2</span>/12</p>
+                                    </div>
                                 </div>
-                                <div class=" text-xs flex flex-wrap gap-x-2 items-center">
-                                    <p>Reps</p>
-                                    <p><span class="text-base text-offGreen">2</span>/12</p>
-                                </div>
+                                <img class="cursor-pointer" src="./assets/images/svg/three-line.svg" alt="menu icon">
                             </div>
-                            <img class="cursor-pointer" src="./assets/images/svg/three-line.svg" alt="menu icon">
                         </div>
                     </div>
                 </div>
                 <div class="lg:w-1/2 w-full">
-                    <div class="max-w-[468px] lg:ml-auto gap-y-2">
+                    <div class="max-w-[460px] lg:ml-auto gap-y-2">
                         <p class="text-base font-medium text-offGreen mb-2">TRACKING</p>
                         <p class="text-[32px] font-normal leading-[110%] mb-5">Cutting Edge Motion <span
                                 class="font-semibold">Tracking/ Feedback</span></p>
@@ -253,7 +264,8 @@
                             <div class="flex gap-x-4">
                                 <img class="cursor-pointer" src="./assets/images/svg/light-green-tick.svg"
                                     alt="light-green-tick">
-                                <p class="text-base font-normal opacity-70 leading-[150%]">Provides a holistic,
+                                <p class="max-w-[400px] text-base font-normal opacity-70 leading-[150%]">Provides a
+                                    holistic,
                                     real-time
                                     analysis of patient exercise form, capturing 300+ data points and critical metrics.
                                 </p>
@@ -261,14 +273,16 @@
                             <div class="flex gap-x-4">
                                 <img class="cursor-pointer" src="./assets/images/svg/light-green-tick.svg"
                                     alt="light-green-tick">
-                                <p class="text-base font-normal opacity-70 leading-[150%]">Delivers immediate feedback
+                                <p class="max-w-[400px] text-base font-normal opacity-70 leading-[150%]">Delivers
+                                    immediate feedback
                                     and
                                     guidance to correct and improve exercise form</p>
                             </div>
                             <div class="flex gap-x-4">
                                 <img class="cursor-pointer" src="./assets/images/svg/light-green-tick.svg"
                                     alt="light-green-tick">
-                                <p class="text-base font-normal opacity-70 leading-[150%]">Supported by the most
+                                <p class="max-w-[413px] text-base font-normal opacity-70 leading-[150%]">Supported by
+                                    the most
                                     accurate
                                     motion-tracking model designed for rehabilitation, Yoomi Vision
                                 </p>
@@ -281,28 +295,31 @@
                             </div>
                         </div>
                         <button
-                            class=" mt-9 py-3 px-4 text-base font-semibold rounded-md  text-white bg-offGreen hover:transform hover:scale-110 transition-all ease-linear duration-300">View
-                            the Library</button>
+                            class=" sm:mt-9 mt-5 py-3 px-4 text-base font-semibold rounded-md text-white bg-offGreen hover:transform hover:scale-[0.9] transition-all ease-linear duration-300">Test
+                            it Yourself</button>
                     </div>
                 </div>
             </div>
             <!-- =================report================== -->
-            <div class="flex flex-wrap  bg-white sm:pt-12 sm:pb-5 rounded-[32px] sm:mt-24 mt-8 md:pl-9 shadow-[0px_26px_27px_0px_#0000000A]">
+            <div
+                class="relative flex flex-wrap bg-white sm:pt-12 sm:pb-5 rounded-[32px] sm:mt-24 mt-8 md:pl-9 px-3 shadow-[0px_26px_27px_0px_#0000000A]">
+                <img class="absolute bottom-0 left-0 max-sm:hidden"
+                    src="./assets/images/svg/report-left-bottom-icon.svg" alt="report-left-bottom-icon">
                 <div class="w-5/12 max-lg:w-full items-center justify-center flex">
-                    <div class="sm:py-16 py-8">
+                    <div class="lg:py-16 py-8">
                         <p class="text-offGreen font-medium text-base leading-[118%] uppercase">REPORT</p>
                         <p class="font-normal text-[32px] leading-[120%]">Reporting + <span
                                 class="font-semibold pt-2">Analytics</span></p>
                         <p class="font-normal text-base leading-[118%] text-black opacity-[70%] max-w-[385px] pt-5">
                             Track patient progress over time with compliance, pain, RPE, ROM and other key metrics</p>
                         <button
-                            class=" mt-9 py-3 px-4 text-base font-semibold rounded-md  text-white bg-offGreen hover:transform hover:scale-110 transition-all ease-linear duration-300">View
+                            class=" mt-9 py-3 px-4 text-base font-semibold rounded-md text-white bg-offGreen hover:transform hover:scale-[0.9] transition-all ease-linear duration-300">View
                             the Matrics</button>
                     </div>
                 </div>
                 <div class="w-7/12 max-lg:w-full">
                     <div class="max-w-[620px] max-lg:mx-auto">
-                        <img class="w-full" src="/assets/images/webp/reporting-analytics.webp"
+                        <img class="w-full pointer-events-none" src="/assets/images/webp/reporting-analytics.webp"
                             alt="reporting-analytics">
                     </div>
                 </div>
@@ -310,7 +327,8 @@
 
         </div>
     </section>
-    <section class="bg-customWhite ">
+    <section class="relative bg-customWhite">
+        <img class="absolute top-0 right-0" src="./assets/images/svg/plateform-top-right.svg" alt="plateform-top-right">
         <div class="container px-3 pt-20 pb-4">
             <!-- ==============Platform============= -->
             <p class="text-center text-offGreen font-medium text-base leading-[118%] uppercase">Platform</p>
@@ -319,76 +337,79 @@
             <p class="text-center font-normal text-base leading-[118%] text-black opacity-[70%] pt-4">We’ve helped out
                 partners and patients achieve</p>
             <div class="flex gap-7 items-center justify-center flex-wrap my-14">
-                <div class="bg-[#85B6A6] relative rounded items-center justify-center flex w-[268px] h-[207px]">
+                <div class="bg-[#85B6A6] relative rounded items-center justify-center flex w-[268px] h-[207px] transition-all ease-linear duration-200 hover:shadow-5xl">
                     <img src="/assets/images/svg/platform-card-bg-image.svg" alt="platform-card-bg-image"
                         class="absolute bottom-0 right-0">
-                    <div class="">
-                        <p class="text-6xl leading-[110%] text-white font-semibold">50%</p>
-                        <p class="text-center max-w-[148px] text-white opacity-[70%] font-normal">Reduction in Pain</p>
+                    <div>
+                        <p class="text-6xl text-center leading-[110%] text-white font-semibold">50%</p>
+                        <p class="text-center text-xl max-w-[148px] text-white opacity-[70%] font-normal">Reduction in
+                            Pain</p>
                     </div>
                 </div>
-                <div class="bg-lightGreen relative rounded items-center justify-center flex w-[268px] h-[207px]">
+                <div class="bg-lightGreen relative rounded items-center justify-center flex w-[268px] h-[207px]  transition-all ease-linear duration-300 hover:shadow-5xl">
                     <img src="/assets/images/svg/platform-card-bg-image.svg" alt="platform-card-bg-image"
                         class="absolute bottom-0 right-0">
                     <div class="items-center justify-center flex flex-col">
-                        <p class="text-[50px] leading-[110%] text-white font-semibold text-center">90%</p>
-                        <p class="text-center max-w-[148px] text-white opacity-[70%] font-normal">Increase In-Patient
+                        <p class="text-6xl leading-[110%] text-white font-semibold text-center">90%</p>
+                        <p class="text-center text-xl max-w-[148px] text-white opacity-[70%] font-normal"><span
+                                class="text-nowrap">Increase In-Patient</span>
                             Satisfaction</p>
                     </div>
                 </div>
-                <div class="bg-offGreen relative rounded items-center justify-center flex w-[268px] h-[207px]">
+                <div class="bg-offGreen relative rounded items-center justify-center flex w-[268px] h-[207px] transition-all ease-linear duration-200 hover:shadow-5xl">
                     <img src="/assets/images/svg/platform-card-bg-image.svg" alt="platform-card-bg-image"
                         class="absolute bottom-0 right-0">
-                    <div class="">
-                        <p class="text-[50px] leading-[110%] text-white font-semibold text-center">60%</p>
-                        <p class=" text-center max-w-[148px] text-white opacity-[70%] font-normal">Faster Recovery</p>
+                    <div>
+                        <p class="text-6xl leading-[110%] text-white font-semibold text-center">60%</p>
+                        <p class=" text-center text-xl max-w-[148px] text-white text-nowrap opacity-[70%] font-normal">
+                            Faster Recovery</p>
                     </div>
                 </div>
             </div>
 
         </div>
     </section>
-    <section class="">
-        <div class="container px-3">
+    <section>
+        <div class="container px-3 -mb-10">
             <!-- ==========================Partners==================== -->
             <div class="max-w-[684px] mx-auto mb-9 sm:mt-[87px] mt-6">
                 <p class="text-base font-medium text-offGreen text-center uppercase">PARTNERS</p>
-                <p class="text-[40px] font-normal text-center">Recognized by Leading <span
+                <p class="text-[40px] font-normal text-center leading-[110%]">Recognized by Leading <span
                         class="font-semibold">Healthcare Institutions</span></p>
             </div>
             <div class="flex flex-wrap justify-center gap-4">
                 <div
-                    class="w-52 h-[138px] border border-[#0000001A] items-center justify-center flex rounded shadow-[0px_13px_18px_0px_#0000000F;]">
-                    <img src="./assets/images/svg/nih.svg" alt="nih">
+                    class="transition-all ease-linear duration-200 hover:shadow-5xl w-52 h-[138px] border border-[#0000001A] items-center justify-center flex rounded shadow-[0px_13px_18px_0px_#0000000F;]">
+                    <img class="pointer-events-none" src="./assets/images/svg/nih.svg" alt="nih">
                 </div>
                 <div
-                    class="w-52 h-[138px] border border-[#0000001A] items-center justify-center flex rounded shadow-[0px_13px_18px_0px_#0000000F;]">
-                    <img src="./assets/images/svg/lvx.svg" alt="lvx">
+                    class="transition-all ease-linear duration-200 hover:shadow-5xl w-52 h-[138px] border border-[#0000001A] items-center justify-center flex rounded shadow-[0px_13px_18px_0px_#0000000F;]">
+                    <img class="pointer-events-none" src="./assets/images/svg/lvx.svg" alt="lvx">
                 </div>
                 <div
-                    class="w-52 h-[138px] border border-[#0000001A] items-center justify-center flex rounded shadow-[0px_13px_18px_0px_#0000000F;]">
-                    <img src="./assets/images/svg/rwj.svg" alt="rwj">
+                    class="transition-all ease-linear duration-200 hover:shadow-5xl w-52 h-[138px] border border-[#0000001A] items-center justify-center flex rounded shadow-[0px_13px_18px_0px_#0000000F;]">
+                    <img class="pointer-events-none" src="./assets/images/svg/rwj.svg" alt="rwj">
                 </div>
                 <div
-                    class="w-52 h-[138px] border border-[#0000001A] items-center justify-center flex rounded shadow-[0px_13px_18px_0px_#0000000F;]">
-                    <img src="./assets/images/svg/gag.svg" alt="gag">
+                    class="transition-all ease-linear duration-200 hover:shadow-5xl w-52 h-[138px] border border-[#0000001A] items-center justify-center flex rounded shadow-[0px_13px_18px_0px_#0000000F;]">
+                    <img class="pointer-events-none" src="./assets/images/svg/gag.svg" alt="gag">
                 </div>
                 <div
-                    class="w-52 h-[138px] border border-[#0000001A] items-center justify-center flex rounded shadow-[0px_13px_18px_0px_#0000000F;]">
-                    <img src="./assets/images/svg/cornell-university.svg" alt="cornell-university">
+                    class="transition-all ease-linear duration-200 hover:shadow-5xl w-52 h-[138px] border border-[#0000001A] items-center justify-center flex rounded shadow-[0px_13px_18px_0px_#0000000F;]">
+                    <img class="pointer-events-none" src="./assets/images/svg/cornell-university.svg" alt="cornell-university">
                 </div>
             </div>
             <!-- ==========================Know More==================== -->
             <div class="max-w-[616px] mx-auto sm:mt-24 mt-6">
                 <p class="text-base font-medium text-offGreen text-center uppercase">Know More</p>
-                <p class="text-[40px] font-normal text-center">And Used by the Biggest <span
+                <p class="sm:text-[40px] text-3xl font-normal text-center leading-[110%]">And Used by the Biggest <span
                         class="font-semibold">Figures in Sports and Rehab</span></p>
             </div>
             <div class=" mt-9 px-3">
                 <!-- big-images-slider -->
                 <div class="max-w-[946px] w-full lg:min-h-[473px] big-img-slider mx-auto">
                     <div>
-                        <img class=" w-full aspect-video rounded-2xl " src="./assets/images/webp/slider-2-img1.png"
+                        <img class=" w-full aspect-video rounded-2xl" src="./assets/images/webp/slider-2-img1.png"
                             alt="dr-pasent">
                     </div>
                     <div>
@@ -396,11 +417,11 @@
                             alt="hosting">
                     </div>
                     <div>
-                        <img class=" w-full aspect-video rounded-2xl " src="./assets/images/webp/slider-2-img3.png"
+                        <img class=" w-full aspect-video rounded-2xl" src="./assets/images/webp/slider-2-img3.png"
                             alt="dr-paictent">
                     </div>
                     <div>
-                        <img class=" w-full aspect-video rounded-2xl " src="./assets/images/webp/slider-2-img1.png"
+                        <img class=" w-full aspect-video rounded-2xl" src="./assets/images/webp/slider-2-img1.png"
                             alt="dr-paictent">
                     </div>
                 </div>
@@ -425,28 +446,27 @@
                     </div>
                 </div>
             </div>
-            <div class="bg-offGreen container rounded-[32px] relative sm:translate-y-28 translate-y-12">
+            <div class="bg-offGreen container rounded-[32px] relative sm:translate-y-20 translate-y-12">
                 <img src="/assets/images/svg/green-card-shadow.svg" alt="shadow" class="bottom-0 right-0 absolute">
                 <div class=" flex justify-between max-md:flex-wrap">
                     <div
-                        class="pb-12 pt-20 max-md:pt-14 max-sm:pt-8  ps-20  max-md:ps-0 max-sm:max-w-full mx-auto flex-col">
-                        <img src="/assets/images/svg/footer-logo.svg" alt="logo"
-                            class="max-md:mx-auto max-sm:max-w-24">
+                        class="pb-12 pt-20 max-md:pt-14 max-sm:pt-8 ps-20 max-md:ps-0 max-sm:max-w-full mx-auto flex-col">
+                        <img src="/assets/images/svg/footer-logo.svg" alt="logo" class="max-md:mx-auto max-sm:max-w-24">
                         <h2
-                            class=" max-md:flex max-md:items-center max-md:justify-center max-md:flex-col  text-white font-normal text-3xl leading-[110%] pt-7 plus-jakarta-font">
+                            class=" max-md:flex max-md:items-center max-md:justify-center max-md:flex-col text-white font-normal text-3xl leading-[110%] pt-7 plus-jakarta-font">
                             Sign Up to Join<span class="font-semibold">Our Newsletter</span></h2>
-                            <div class="px-3">
-                                <div
-                                    class="mt-14 bg-white justify-between flex drop-shadow-[0_4px_15px_rgba(7,103,135,0.15)] max-w-[428.89px] mx-auto p-1 rounded">
-                                    <input type="email" placeholder="Enter Your Email"
-                                        class=" placeholder:text-[#110163] placeholder:opacity-70 outline-none border-none text-base font-medium opacity-70 w-[60%] max-sm:w-[55%] px-2">
-                                    <button
-                                        class="sm:py-3 py-2 sm:px-4 px-3 text-base font-semibold rounded-md  text-white bg-offGreen hover:transform hover:scale-110 transition-all ease-linear duration-300">Get
-                                        Started</button>
-                                </div>
-                            </div>
+                        <div class="px-3">
+                            <form
+                                class="mt-14 bg-white justify-between flex drop-shadow-[0_4px_15px_rgba(7,103,135,0.15)] max-w-[428.89px] mx-auto p-1 rounded">
+                                <input type="email" required placeholder="Enter Your Email"
+                                    class=" placeholder:text-[#110163] placeholder:opacity-70 outline-none border-none text-base font-medium opacity-70 w-[60%] max-sm:w-[55%] px-2">
+                                <button
+                                    class="sm:py-3 py-2 sm:px-4 px-3 text-base font-semibold rounded-md text-white bg-offGreen hover:transform hover:scale-[0.9] transition-all ease-linear duration-300">Get
+                                    Started</button>
+                            </form>
+                        </div>
                     </div>
-                    <div class=" pt-9 max-sm:pt-0 max-sm:pb-10 pb-5 pe-24 max-lg:pe-0  max-sm:max-w-full mx-auto">
+                    <div class=" pt-9 max-sm:pt-0 max-sm:pb-10 pb-5 pe-24 max-lg:pe-0 max-sm:max-w-full mx-auto">
                         <img src="/assets/images/webp/cartoon.png" alt="cartoon" class="pointer-events-none">
                     </div>
                 </div>
@@ -462,60 +482,60 @@
                             class="pt-32 max-md:max-w-28 max-md:pt-20 max-sm:pt-5 max-lg:mx-auto"></a>
                     <p class="pt-7 max-w-[277px] leading-[150%] text-sm font-light text-white max-lg:mx-auto">I'm a
                         paragraph. Click here to add your own text and edit me. It’s easy. Just click “Edit Text” </p>
-                    <p
-                        class="gap-4 pt-7 text-sm font-light leading-[118%] text-white flex items-center max-lg:justify-center">
-                        <span><img src="/assets/images/svg/email.svg" alt="email" class="pointer-events-none"></span><a
-                            href="">contact@yoomi.com</a>
-                    </p>
-                    <p
-                        class="pt-4 gap-4 text-sm font-light leading-[118%] text-white flex items-center max-lg:justify-center max-md:pr-9">
-                        <span><img src="/assets/images/svg/call.svg" alt="call" class="pointer-events-none"></span><a
-                            href="">+123 456 789</a>
-                    </p>
+                    <div class="max-w-48 max-lg:mx-auto">
+                        <div class="gap-4 pt-7 text-sm font-light leading-[118%] text-white flex ">
+                            <img src="/assets/images/svg/email.svg" alt="email" class="pointer-events-none">
+                            <a class="text-white transition-all ease-linear duration-300 hover:text-offGreen" href="mailto:contact@yoomi.com">contact@yoomi.com</a>
+                        </div>
+                        <div class="gap-4 pt-7 text-sm font-light leading-[118%] text-white flex ">
+                            <img src="/assets/images/svg/call.svg" alt="call" class="pointer-events-none">
+                            <a class="text-white transition-all ease-linear duration-300 hover:text-offGreen" href="tel:+123 456 789">+123 456 789</a>
+                        </div>
+                    </div>
                 </div>
                 <div
-                    class="w-5/12 max-lg:w-full flex flex-wrap pt-32  max-lg:pt-28 max-md:pt-20 max-sm:pt-7  gap-11 max-lg:justify-center">
-                    <div class="lg:w-3/12 max-lg:w-4/12 ">
+                    class="w-4/12 max-lg:w-full flex flex-wrap pt-32 max-lg:pt-28 max-md:pt-20 max-sm:pt-7 gap-y-6 max-lg:justify-center">
+                    <div class="w-4/12">
                         <p class="text-white font-semibold text-sm leading-[118%] max-lg:text-center">About</p>
                         <ul class="max-lg:text-center">
                             <li
-                                class="text-white text-sm leading-[118%] font-normal pt-5 transition-all ease-linear duration-300">
+                                class="text-white text-sm leading-[118%] font-normal pt-5 transition-all ease-linear duration-300 hover:text-offGreen">
                                 <a href="">Meet the Team</a>
                             </li>
                             <li
-                                class="text-white text-sm leading-[118%] font-normal pt-5 transition-all ease-linear duration-300">
+                                class="text-white text-sm leading-[118%] font-normal pt-5 transition-all ease-linear duration-300 hover:text-offGreen">
                                 <a href="">Our Mission</a>
                             </li>
                             <li
-                                class="text-white text-sm leading-[118%] font-normal pt-5 transition-all ease-linear duration-300">
+                                class="text-white text-sm leading-[118%] font-normal pt-5 hover:text-offGreen transition-all ease-linear duration-300">
                                 <a href="">Our Vision</a>
                             </li>
                         </ul>
                     </div>
 
-                    <div class="lg:w-3/12 max-lg:w-4/12 ">
+                    <div class="w-4/12 lg:text-right">
                         <p class="text-white font-semibold text-sm leading-[118%] max-lg:text-center">Contact Us</p>
                         <ul class="max-lg:text-center">
                             <li
-                                class="text-white text-sm leading-[118%] font-normal transition-all ease-linear duration-300 pt-5">
+                                class="text-white text-sm leading-[118%] font-normal pt-5 lg:pr-[30px] hover:text-offGreen transition-all ease-linear duration-300">
                                 <a target="_blank" href="https://x.com/i/flow/login">Twitter</a>
                             </li>
                             <li
-                                class="text-white text-sm leading-[118%] font-normal transition-all ease-linear duration-300 pt-5">
+                                class="text-white text-sm leading-[118%] font-normal pt-5 lg:pr-[9.5px] hover:text-offGreen transition-all ease-linear duration-300">
                                 <a target="_blank" href="https://Instagram.com">Instagram</a>
                             </li>
                             <li
-                                class="text-white text-sm leading-[118%] font-normal transition-all ease-linear duration-300 pt-5">
+                                class="text-white text-sm leading-[118%] font-normal hover:text-offGreen transition-all ease-linear duration-300 pt-5 lg:pr-5">
                                 <a target="_blank" href="https://Linkedin.com">Linkedin</a>
                             </li>
                         </ul>
 
                     </div>
-                    <div class="lg:w-3/12 max-lg:w-4/12 max-sm:w-full">
-                        <p class="text-white font-semibold text-sm leading-[118%] max-lg:text-center">News</p>
+                    <div class="w-4/12 max-sm:w-full lg:text-right">
+                        <p class="text-white font-semibold text-sm leading-[118%] max-lg:text-center lg:pr-2">News</p>
                         <ul>
                             <li
-                                class="max-lg:text-center text-white text-sm leading-[118%] font-normal pt-5 transition-all ease-linear duration-300">
+                                class="max-lg:text-center  text-white text-sm leading-[118%] font-normal pt-5 hover:text-offGreen transition-all ease-linear duration-300">
                                 <a href="/">Recent</a>
                             </li>
                         </ul>
@@ -524,23 +544,21 @@
                 </div>
             </div>
         </div>
-        <div class="w-full  border-[#FFFFFF33] border-solid border mt-16"></div>
+        <div class="w-full border-[#FFFFFF33] border-solid border mt-16"></div>
         <div class="container px-3">
             <div class="flex items-center gap-6 justify-end py-5 max-md:justify-center max-md:gap-3 max-md:mx-4">
-                <a href="">
-                    <p class=" text-white text-sm font-normal leading-[118%] opacity-[70%] ">Terms of Service</p>
+                <a href="" class=" text-white text-sm font-normal leading-[118%] opacity-[70%] hover:text-offGreen transition-all ease-linear duration-300">Terms of Service
                 </a>
-                <a href="">
-                    <p class="text-white text-sm font-normal leading-[118%] opacity-[70%]">Privacy Policy</p>
+                <a href="" class="text-white text-sm font-normal leading-[118%] opacity-[70%] hover:text-offGreen transition-all ease-linear duration-300">Privacy Policy
                 </a>
-                <a href="">
-                    <p class="text-white text-sm font-normal leading-[118%] opacity-[70%]">Cookies</p>
+                <a href="" class="text-white text-sm font-normal leading-[118%] opacity-[70%] hover:text-offGreen transition-all ease-linear duration-300">Cookies
                 </a>
             </div>
         </div>
-         <div class="relative">
-        <img class="-left-1 bottom-20 absolute" src="./assets/images/svg/footer-left-layer.svg" alt="footer-left-layer">
-    </div>
+        <div class="relative">
+            <img class="-left-1 bottom-20 absolute" src="./assets/images/svg/footer-left-layer.svg"
+                alt="footer-left-layer">
+        </div>
     </section>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"

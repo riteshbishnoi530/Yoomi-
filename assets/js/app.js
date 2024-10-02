@@ -1,4 +1,5 @@
 // ===========navbar toggle============
+
 const navmenu = () => {
     document.getElementById("mobile_view").classList.toggle("max-lg:top-0");
     document.getElementById("mobile_view").classList.toggle("max-lg:left-0");
@@ -9,7 +10,9 @@ const navmenu = () => {
       .classList.toggle("translate-x-9");
     document.body.classList.toggle("overflow-hidden");
   };
-  // ==========slider-1================
+
+  // ==========library-slider================
+
   $('.slideBox').slick({
     dots: false,
     infinite: true,
@@ -20,7 +23,9 @@ const navmenu = () => {
     nextArrow:".next",
     prevArrow:".prev",
   });
-  // ===============slider-2=============
+
+  // ===============know-more-slider=============
+  
   $(document).ready(function () {
     $(".big-img-slider").slick({
       slidesToShow: 1,
@@ -36,7 +41,7 @@ const navmenu = () => {
       slidesToScroll: 1,
       asNavFor: ".big-img-slider",
       arrows: false,
-      centerMode: true,
+      
       focusOnSelect: true,
       infinite: true,
       variableWidth: true,
